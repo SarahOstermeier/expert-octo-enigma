@@ -78,5 +78,3 @@ Method: setIncomingStudnet(Studnet newStudnet), setNumberOfRooms(int rooms), voi
 
 
 
-## Edit and Submit this file and any figures referenced by this document.
-
