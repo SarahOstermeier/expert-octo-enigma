@@ -1,31 +1,7 @@
 # X-Team 84 Dorm Room Assignment Project Proposal
 
-See https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code for tips on using *Markdown* tags to format __.md__ files
-
 ## Goal
-
-Work as a team to create a project proposal for your X-team to complete together.
-The project does not have to be extremely difficult,
-but there must be work to do for each member of your team.
-You may reference figures using "See figure 1".  
-Be sure to submit corresponding image files, i.e. figure1.png (or figure1.jpg) for each figure.
-
-## Grading: To earn full credit, your team's proposal must include:
-
-* (md) documentation: [this file] describing purpose and use of your program
-
-* Description of a program that has:
-
-  ** a main Java program class in a file named Main.java
-  
-  ** a custom data structure designed and built by your team
-  
-  ** comprehensive testing of individual units
-  
- Caution: You are not being asked to implement this program, at least not yet. 
- We just want your group to make a proposal or pitch for your program.
- 
- Tip: Your custom data structure can be composed of or extensions of data structures that you have learned and used in previous programming assignments.  We're looking for decisions about how to build a high-level data structure that will likely have lower-level components.
+To provide an efficient program and interface for assigning students to dorm rooms.
 
 ## Problem Description
 
