@@ -43,7 +43,9 @@ Describe at a high level a program that could solve that problem.
 
 
 2. Output: A room assignment with 2 students attached.
+
 Format: DORM, ROOM#, [Student1], [Student2]
+
 Example: Dejope, 311, Sarah Ostermeier, Diana Li
 
 Describe the output your program will produce.  Include an example format of the output produced.
@@ -51,11 +53,17 @@ Describe the output your program will produce.  Include an example format of the
 
 
 3. Input: List of dorms and rooms, list of students and roommate preferences
+
 List of dorms and rooms:
+
 Format: [DormName], [#ofRooms]
+
 Example: Dejope, 200
+
 List of studnets and roommate preferences: 
+
 Format: [studentName],[Preference]
+
 Example: Yan, Jason
 
 Describe the data that is needed to solve your problem. Include an example format of the input data.
