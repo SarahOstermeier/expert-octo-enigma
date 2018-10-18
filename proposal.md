@@ -1,4 +1,4 @@
-# X-Team NN Project Proposal
+# X-Team 84 Dorm Room Assignment Project Proposal
 
 See https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code for tips on using *Markdown* tags to format __.md__ files
 
@@ -29,28 +29,48 @@ Be sure to submit corresponding image files, i.e. figure1.png (or figure1.jpg) f
 
 ## Problem Description
 
+Assigning dorms and rooms to incoming students, and matching students with a compatible roommate (assuming 2 roommates per dorm room).
+
+To achieve this, 
+
 Briefly describe a problem that your team would like to solve.  
 Describe at a high level a program that could solve that problem.
 
 ## Questions to answer for Exercise #2
 
-1. Name: Give your project proposal a name (and edit the top line of this file)
+1. Name: Dorm Room Assignment
 
 
 
-2. Output: Describe the output your program will produce.  Include and example format of the output produced.
+2. Output: A room assignment with 2 students attached.
+Format: DORM, ROOM#, [Student1], [Student2]
+Example: Dejope, 311, Sarah Ostermeier, Diana Li
+
+Describe the output your program will produce.  Include an example format of the output produced.
 
 
 
-3. Input: Describe the data that is needed to solve your problem. Include an example format of the input data.
+3. Input: List of dorms and rooms, list of students and roommate preferences
+List of dorms and rooms:
+Format: [DormName], [#ofRooms]
+Example: Dejope, 200
+List of studnets and roommate preferences: 
+Format: [studentName],[Preference]
+Example: Yan, Jason
+
+Describe the data that is needed to solve your problem. Include an example format of the input data.
 
 
 
-4. User Interface: Describe a user interface for your program.  Use text menus or a simple graphic user interface.
+4. User Interface: See figure 1
+
+Describe a user interface for your program.  Use text menus or a simple graphic user interface.
 
 
 
-5. Types List: Break your solution idea down into units that you think can be implemented with a single class.
+5. Types List: 
+
+Break your solution idea down into units that you think can be implemented with a single class.
 
 
 
