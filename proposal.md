@@ -77,6 +77,17 @@ Describe a user interface for your program.  Use text menus or a simple graphic 
 
 
 5. Types List: 
+Student class: Store information about each students.
+fiels: String StudentName, String Roommate preference, Dorm preference.
+Methods: getName(); getPreference();
+
+Room class: Store information about each room in the dorm
+fiels: Student Roommate1, student Roommate2;
+Methods: String getRoommates(); void setRoommate(Student students); boolean isAvaliable();
+
+Dorm calss: store all the rooms in the dorm
+fiels: Room[] rooms, Student[] student
+Method: setIncomingStudnet(Studnet newStudnet), setNumberOfRooms(int rooms), void assignRoommate().
 
 Break your solution idea down into units that you think can be implemented with a single class.
 
