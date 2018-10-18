@@ -1,4 +1,4 @@
-# xteam-exercise-2: https://github.com/SarahOstermeier/
+# xteam-exercise-2: https://github.com/SarahOstermeier/expert-octo-enigma
 
 1. Edit the title of this document
    * Replace <UserName> with the user name of the team member who created shared repository
@@ -11,7 +11,6 @@
        * GitHub username 2: AlstonXiao      name 2: Yan Xiao
        * GitHub username 3: dli267       name 3: Diana Li
        * GitHub username 4: Jhcarrington       name 4: Jason Carrington
-       * GitHub username 5:       name 5:
    * When did you complete this exercise? 
     In the afternoon of Oct. 18th, 2018
    * How long did it take your team to complete this exercise? 
