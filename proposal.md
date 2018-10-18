@@ -71,7 +71,7 @@ Describe the data that is needed to solve your problem. Include an example forma
 
 
 4. User Interface: 
-[See figure 1](https://github.com/SarahOstermeier/expert-octo-enigma/blob/master/main%20interface.png)
+[See figure 1](https://github.com/SarahOstermeier/expert-octo-enigma/blob/master/main%20interface.png) and
 [See figure 2](https://github.com/SarahOstermeier/expert-octo-enigma/blob/master/student%20interface.png)
 
 Describe a user interface for your program.  Use text menus or a simple graphic user interface.
