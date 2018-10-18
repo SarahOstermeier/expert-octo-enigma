@@ -31,10 +31,10 @@ Be sure to submit corresponding image files, i.e. figure1.png (or figure1.jpg) f
 
 Assigning dorms and rooms to incoming students, and matching students with a compatible roommate (assuming 2 roommates per dorm room).
 
-To achieve this, 
+To achieve this, our program creates a class for the students and a class for the dorms. Student preferences are stored within the student class and dorm information is stored in the dorm class, including room numbers and locations. Also an algorithm that can match roommates.
 
-Briefly describe a problem that your team would like to solve.  
-Describe at a high level a program that could solve that problem.
+For testing, we would create JUnit tests to test if we can, for exmaple, properly generate Student classes, properly store large numbers of Students, properly see if a Room is available or not, etc.
+
 
 ## Questions to answer for Exercise #2
 
@@ -48,7 +48,6 @@ Format: DORM, ROOM#, [Student1], [Student2]
 
 Example: Dejope, 311, Sarah Ostermeier, Diana Li
 
-Describe the output your program will produce.  Include an example format of the output produced.
 
 
 
@@ -66,36 +65,41 @@ Format: [studentName],[Preference]
 
 Example: Yan, Jason
 
-Describe the data that is needed to solve your problem. Include an example format of the input data.
 
 
 
 4. User Interface: 
-[See figure 1](https://github.com/SarahOstermeier/expert-octo-enigma/blob/master/main%20interface.png) and
+[See figure 1](https://github.com/SarahOstermeier/expert-octo-enigma/blob/master/main%20interface.png)
 [See figure 2](https://github.com/SarahOstermeier/expert-octo-enigma/blob/master/student%20interface.png)
 
-Describe a user interface for your program.  Use text menus or a simple graphic user interface.
 
 
 
 5. Types List: 
+
+Main class: Will contain an event listener that will respond to the user clicking a button on the interface. When a button is clicked on the main interface, the event listener will respond by calling the appropriate methods. For example, when the user clicks "Register Student", the event listerner will call a constructer in the student class and construct a new student. 
+
+
 Student class: Store information about each students.
-fiels: String StudentName, String Roommate preference, Dorm preference.
+
+fields: String StudentName, String Roommate preference, Dorm preference.
+
 Methods: getName(); getPreference();
 
+
 Room class: Store information about each room in the dorm
-fiels: Student Roommate1, student Roommate2;
+
+fields: Student Roommate1, student Roommate2;
+
 Methods: String getRoommates(); void setRoommate(Student students); boolean isAvaliable();
 
-Dorm calss: store all the rooms in the dorm
+
+Dorm class: store all the rooms in the dorm
+
 fiels: Room[] rooms, Student[] student
+
 Method: setIncomingStudnet(Studnet newStudnet), setNumberOfRooms(int rooms), void assignRoommate().
 
-Break your solution idea down into units that you think can be implemented with a single class.
-
-
-
-Name each interface or class and briefly describe its function or purpose.
 
 
 ## Edit and Submit this file and any figures referenced by this document.
